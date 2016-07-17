@@ -18,16 +18,24 @@ composer require josegonzalez/cakephp-upload
 
 
 bin/cake plugin load Crud
+
 bin/cake plugin load CrudView
+
 bin/cake plugin load BootstrapUI
+
 bin/cake plugin load Search
+
 bin/cake plugin load CrudUsers
+
 bin/cake plugin load FOC/Authenticate
+
 bin/cake plugin load Josegonzalez/Upload
+
 
 
 2、
 bin/cake bake model Users
+
 bin/cake bake controller Users -t Crud
 
 bin/cake bake template Users
@@ -37,6 +45,7 @@ bin/cake bake template Users
 
 
 bin/cake bake model Articles
+
 bin/cake bake controller Articles -t Crud
 
 4、
